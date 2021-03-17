@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{308521B3-F2F4-35A6-9DE8-91530CACB657}</ProjectGuid>
+    <ProjectGuid>{1ED897A0-C65B-561F-E1A7-962B22E2A308}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,8 +67,16 @@
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CardboardStartup.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\ObjectController.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\VrModeController.cs" />
+    <Compile Include="Assets\Scripts\Apple.cs" />
+    <Compile Include="Assets\Scripts\Display.cs" />
+    <Compile Include="Assets\Scripts\Path Scripts\PathMaster.cs" />
+    <Compile Include="Assets\Scripts\Path Scripts\PathMover.cs" />
+    <Compile Include="Assets\Scripts\Path Scripts\WayPoint.cs" />
     <Compile Include="Assets\Scripts\ScavengerHuntManager.cs" />
     <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
+    <Compile Include="Assets\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\Scripts\SpawnPoint.cs" />
+    <Compile Include="Assets\Scripts\Turtle.cs" />
     <Compile Include="Assets\Scripts\Utilities\CameraPointer.cs" />
     <Compile Include="Assets\Scripts\Utilities\CountDown.cs" />
     <Compile Include="Assets\Scripts\Utilities\FadeMusic.cs" />
@@ -600,71 +608,71 @@
       <HintPath>C:/Program Files/Unity Hub/Unity Editor/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Google.XR.Cardboard">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Google.XR.Cardboard.Editor">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{2F49955B-E005-8130-AED8-E33E1193A3C0}</Project>
+      <Project>{23BFF458-B522-FA66-21BE-2B5F4D75ACB0}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
-      <Project>{4307AE3F-73E3-D8E6-9F12-FF1AC00EC1E2}</Project>
+      <Project>{1AAAC28A-4851-B26E-9AAC-E182FE69D266}</Project>
       <Name>Unity.XR.Management.Samples</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
-      <Project>{09078116-27D2-1F5B-2697-8E7B44087809}</Project>
+      <Project>{D37180CA-51F0-599D-FFD7-D486934ABBA4}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
     </ProjectReference>
   </ItemGroup>

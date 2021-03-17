@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4307AE3F-73E3-D8E6-9F12-FF1AC00EC1E2}</ProjectGuid>
+    <ProjectGuid>{1AAAC28A-4851-B26E-9AAC-E182FE69D266}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Management.Samples</AssemblyName>
@@ -267,7 +267,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity Hub/Unity Editor/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -624,22 +624,22 @@
       <HintPath>C:/Program Files/Unity Hub/Unity Editor/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 2/VR-Project-2/VR2/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>F:/documents/Spring/Virtual-Reality/VR Project 3/VR-Project-3/VR3/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
