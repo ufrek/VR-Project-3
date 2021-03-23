@@ -43,8 +43,8 @@ public class VRObjectInteract : MonoBehaviour
     public void OnPointerClick()                                            //just plays a a sound for now
     {
         myAudioSource.PlayOneShot(sClickSound);
-        GameObject g = GameObject.FindGameObjectWithTag("GameMaster");
-        g.GetComponent<GameMaster>().endGame();
+        //GameObject g = GameObject.FindGameObjectWithTag("GameMaster");
+        //g.GetComponent<GameMaster>().endGame();
     }
 
     /// <param name="gazedAt">

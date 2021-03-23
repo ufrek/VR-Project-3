@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Turtle : MonoBehaviour
 {
-    GameObject[] spawnPoints;
+    SpawnPoint[] spawnPoints;
     bool[] activeTargets;
     bool setTarget = false;
     bool hasTarget = false;
@@ -25,7 +25,7 @@ public class Turtle : MonoBehaviour
     void Init()
     {
         spawnPoints = SpawnManager.S.getSpawnPoints();
-        activeTargets = SpawnManager.S.getActiveApples();
+        activeTargets = SpawnManager.S.getActiveObjects();
     }
     // Update is called once per frame
     void Update()
@@ -37,7 +37,7 @@ public class Turtle : MonoBehaviour
                 transform.position = Vector3.MoveTowards(transform.position, (transform.position + transform.forward), moveSpeed);
                 if (!hasTarget)
                 {
-                    activeTargets = SpawnManager.S.getActiveApples();
+                    activeTargets = SpawnManager.S.getActiveObjects();
 
                     int randIndex = Random.Range(0, activeTargets.Length);
                     if (activeTargets[randIndex])

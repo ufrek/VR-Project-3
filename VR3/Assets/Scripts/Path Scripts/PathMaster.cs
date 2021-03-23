@@ -17,6 +17,10 @@ public class PathMaster : MonoBehaviour
     void UpdatePath()
     {
         path = this.GetComponentsInChildren<WayPoint>();
+        /*foreach (WayPoint w in path)
+        {
+            w.GetComponent<MeshRenderer>().enabled = false;
+        }*/
         Array.Sort(path, SortByOrder);
     }
     public int SortByOrder(WayPoint a, WayPoint b)

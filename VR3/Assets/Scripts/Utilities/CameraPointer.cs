@@ -25,7 +25,8 @@ using UnityEngine;
 public class CameraPointer : MonoBehaviour
 {
     [SerializeField]
-    private const float _maxDistance = 400;
+    private  float _maxDistance = 400;
+
     private GameObject _gazedAtObject = null;
 
     /// <summary>

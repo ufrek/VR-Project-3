@@ -78,7 +78,7 @@ public class Apple : MonoBehaviour
     void Destructor()
     {
         
-        SpawnManager.S.ResetHasApple(index);
+        SpawnManager.S.ResetHasObject(index);
         turtle.GetComponent<Turtle>().resetTarget();
         Destroy(this.gameObject);
 
