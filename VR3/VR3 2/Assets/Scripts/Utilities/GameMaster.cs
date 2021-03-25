@@ -53,13 +53,8 @@ public class GameMaster : MonoBehaviour
     }
     public void endGame()
     {
-        fadeInMusic = false;
-        fadeOutMusic = true;
-        musicFader.setFadeIn(false);
-        musicFader.setFadeOut(true);
-        setGameOver(true);
-        soundMgr.PlayOneShot(sGameOver, changeLevelVolume);
-        this.GetComponent<Fading>().BeginFade(1);
+
+       
         
         StartCoroutine(Close());
         
@@ -67,6 +62,14 @@ public class GameMaster : MonoBehaviour
 
     private IEnumerator Close()
     {
+        yield return new WaitForSeconds(3);
+        fadeInMusic = false;
+        fadeOutMusic = true;
+        musicFader.setFadeIn(false);
+        musicFader.setFadeOut(true);
+        setGameOver(true);
+        soundMgr.PlayOneShot(sGameOver, changeLevelVolume);
+        this.GetComponent<Fading>().BeginFade(1);
         yield return new WaitForSeconds(3);                         //hardcoded, can fix later
         Scene currScene = SceneManager.GetActiveScene();
         if (currScene == SceneManager.GetSceneByBuildIndex(0))

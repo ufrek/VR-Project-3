@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\PathMaster\WayPoint.cs" />
     <Compile Include="Assets\Scripts\ScavengerHuntManager.cs" />
     <Compile Include="Assets\Scripts\ScoringMechanic.cs" />
+    <Compile Include="Assets\Scripts\SeaWeedSpawner.cs" />
     <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\SpawnPoint.cs" />

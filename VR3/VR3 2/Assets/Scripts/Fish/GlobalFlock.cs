@@ -31,15 +31,8 @@ public class GlobalFlock : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Random.Range(0, 10000) < 50)
-        {
-            goalPos = new Vector3(Random.Range(-tankSize, tankSize),
-                                 Random.Range(-tankSize, tankSize),
-                                 Random.Range(-tankSize, tankSize));
-
-        }
 
     }
 
-    public Vector3 getGoal() { return goalPos; }
+   
 }
