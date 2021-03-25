@@ -81,7 +81,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Name: Tree Data
   m_EditorClassIdentifier: 
   _uniqueID: 66
-  materialHash: cb332f3b2c1b40ea52caf41d3640c63b-769916928
+  materialHash: 1e158e959f4ccd2f38f9c02212e07fe7-769916928
   root:
     _uniqueID: 1
     seed: 1234
