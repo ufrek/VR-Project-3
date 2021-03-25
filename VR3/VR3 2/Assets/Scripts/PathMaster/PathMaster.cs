@@ -22,6 +22,7 @@ public class PathMaster : MonoBehaviour
             w.GetComponent<MeshRenderer>().enabled = false;
         }*/
         Array.Sort(path, SortByOrder);
+      
     }
     public int SortByOrder(WayPoint a, WayPoint b)
     {
