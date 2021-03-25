@@ -69,11 +69,16 @@
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\VrModeController.cs" />
     <Compile Include="Assets\Scripts\Apple.cs" />
     <Compile Include="Assets\Scripts\Display.cs" />
+    <Compile Include="Assets\Scripts\Fish\FishMotion.cs" />
+    <Compile Include="Assets\Scripts\Fish\Flock.cs" />
+    <Compile Include="Assets\Scripts\Fish\GlobalFlock.cs" />
+    <Compile Include="Assets\Scripts\Fish\Wander.cs" />
     <Compile Include="Assets\Scripts\GazeOverEvent.cs" />
     <Compile Include="Assets\Scripts\PathMaster\PathMaster.cs" />
     <Compile Include="Assets\Scripts\PathMaster\PathMover.cs" />
     <Compile Include="Assets\Scripts\PathMaster\WayPoint.cs" />
     <Compile Include="Assets\Scripts\ScavengerHuntManager.cs" />
+    <Compile Include="Assets\Scripts\ScoringMechanic.cs" />
     <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\SpawnPoint.cs" />
@@ -91,6 +96,7 @@
     <Compile Include="Assets\Scripts\Water\WaterEffect.cs" />
     <Compile Include="Assets\Scripts\Water\WaterProFix.cs" />
     <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
+    <None Include="Assets\Shaders\NewSurfaceShader.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity Hub/Unity Editor/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

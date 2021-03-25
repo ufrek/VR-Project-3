@@ -14,7 +14,10 @@ public class UnderWaterCamera : MonoBehaviour
     Color underWaterColor;
     [SerializeField]
     Projector fxProjector;                 //makes water caustic fx
-
+    [SerializeField]
+    Material normalSky;
+    [SerializeField]
+    Material underWaterSky;
     private bool isUnderwater;
     private Color normalColor;
     private Color underwaterColor;
@@ -34,7 +37,7 @@ public class UnderWaterCamera : MonoBehaviour
     {
         Vector3 pos = this.transform.position;
         pos.y = fxProjector.transform.position.y;
-        fxProjector.transform.position = pos;
+        //fxProjector.transform.position = pos;
 
         isUnderwater = transform.position.y < waterHeight;
        
@@ -47,7 +50,7 @@ public class UnderWaterCamera : MonoBehaviour
 
     void SetNormal()
     {
-        
+        RenderSettings.skybox = normalSky;
         Quaternion rotate = waterObj.transform.rotation;
         rotate.x = 0;
         waterObj.transform.rotation = rotate;
@@ -61,10 +64,11 @@ public class UnderWaterCamera : MonoBehaviour
 
     void SetUnderwater()
     {
+        RenderSettings.skybox = underWaterSky;
         Quaternion rotate = waterObj.transform.rotation;
         rotate.x = 180;
         waterObj.transform.rotation = rotate;
-        this.GetComponent<Camera>().clearFlags = CameraClearFlags.SolidColor;
+        //this.GetComponent<Camera>().clearFlags = CameraClearFlags.SolidColor;
         fxProjector.enabled = true;
         RenderSettings.fog = true;
         RenderSettings.fogColor = underwaterColor;
