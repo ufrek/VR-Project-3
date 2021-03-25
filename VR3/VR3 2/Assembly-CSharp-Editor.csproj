@@ -55,7 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Models\Guiding Arrow\Arrow WayPointer\Scripts\Editor\Editor_WaypointController.cs" />
+     <Compile Include="Assets\Models\Arrow WayPointer\Scripts\Editor\Editor_WaypointController.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
