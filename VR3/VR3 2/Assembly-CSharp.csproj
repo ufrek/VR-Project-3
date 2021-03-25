@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Fish\GlobalFlock.cs" />
     <Compile Include="Assets\Scripts\Fish\Wander.cs" />
     <Compile Include="Assets\Scripts\GazeOverEvent.cs" />
+    <Compile Include="Assets\Scripts\Kelp.cs" />
     <Compile Include="Assets\Scripts\PathMaster\PathMaster.cs" />
     <Compile Include="Assets\Scripts\PathMaster\PathMover.cs" />
     <Compile Include="Assets\Scripts\PathMaster\WayPoint.cs" />
