@@ -30,11 +30,6 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -82,51 +77,51 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11568}
+      Script: {instanceID: 11506}
     - Class: 114
-      Script: {instanceID: 11824}
+      Script: {instanceID: 11762}
     - Class: 114
-      Script: {instanceID: 11866}
+      Script: {instanceID: 11804}
     - Class: 114
-      Script: {instanceID: 11922}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 12026}
+      Script: {instanceID: 11964}
     - Class: 114
-      Script: {instanceID: 12232}
+      Script: {instanceID: 12170}
     - Class: 114
-      Script: {instanceID: 12424}
+      Script: {instanceID: 12362}
     - Class: 114
-      Script: {instanceID: 12450}
+      Script: {instanceID: 12388}
     - Class: 114
-      Script: {instanceID: 12456}
+      Script: {instanceID: 12394}
     - Class: 114
-      Script: {instanceID: 12482}
+      Script: {instanceID: 12420}
     - Class: 114
-      Script: {instanceID: 12686}
+      Script: {instanceID: 12624}
     - Class: 114
-      Script: {instanceID: 12732}
+      Script: {instanceID: 12670}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 12822}
     - Class: 114
-      Script: {instanceID: 12930}
+      Script: {instanceID: 12868}
     - Class: 114
-      Script: {instanceID: 13086}
+      Script: {instanceID: 13024}
     - Class: 114
-      Script: {instanceID: 13130}
+      Script: {instanceID: 13068}
     - Class: 114
-      Script: {instanceID: 13136}
+      Script: {instanceID: 13074}
     - Class: 114
-      Script: {instanceID: 13158}
+      Script: {instanceID: 13096}
     - Class: 114
-      Script: {instanceID: 13236}
+      Script: {instanceID: 13174}
     - Class: 114
-      Script: {instanceID: 13434}
+      Script: {instanceID: 13372}
     - Class: 114
-      Script: {instanceID: 14840}
+      Script: {instanceID: 13918}
     - Class: 114
-      Script: {instanceID: 16292}
+      Script: {instanceID: 29404}
     - Class: 114
-      Script: {instanceID: 16324}
+      Script: {instanceID: 29436}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 119
@@ -145,7 +140,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    Assets/Scenes/L2.unity:
+    Assets/Scenes/L3.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -185,47 +180,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11568}
+      Script: {instanceID: 11506}
     - Class: 114
-      Script: {instanceID: 11824}
+      Script: {instanceID: 11762}
     - Class: 114
-      Script: {instanceID: 11866}
+      Script: {instanceID: 11804}
     - Class: 114
-      Script: {instanceID: 11922}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 12026}
+      Script: {instanceID: 11964}
     - Class: 114
-      Script: {instanceID: 12232}
+      Script: {instanceID: 12170}
     - Class: 114
-      Script: {instanceID: 12424}
+      Script: {instanceID: 12362}
     - Class: 114
-      Script: {instanceID: 12450}
+      Script: {instanceID: 12388}
     - Class: 114
-      Script: {instanceID: 12456}
+      Script: {instanceID: 12394}
     - Class: 114
-      Script: {instanceID: 12482}
+      Script: {instanceID: 12420}
     - Class: 114
-      Script: {instanceID: 12686}
+      Script: {instanceID: 12624}
     - Class: 114
-      Script: {instanceID: 12732}
+      Script: {instanceID: 12670}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 12822}
     - Class: 114
-      Script: {instanceID: 12930}
+      Script: {instanceID: 12868}
     - Class: 114
-      Script: {instanceID: 13086}
+      Script: {instanceID: 13024}
     - Class: 114
-      Script: {instanceID: 13130}
+      Script: {instanceID: 13068}
     - Class: 114
-      Script: {instanceID: 13136}
+      Script: {instanceID: 13074}
     - Class: 114
-      Script: {instanceID: 13158}
+      Script: {instanceID: 13096}
     - Class: 114
-      Script: {instanceID: 13236}
+      Script: {instanceID: 13174}
     - Class: 114
-      Script: {instanceID: 13434}
+      Script: {instanceID: 13372}
     - Class: 114
-      Script: {instanceID: 14840}
+      Script: {instanceID: 13918}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 119
@@ -1022,6 +1017,6 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/L1.unity
-  - Assets/Scenes/L2.unity
+  - Assets/Scenes/L3.unity
   playerPath: C:/Users/User/Documents/Spring/Virtual Reality/VR Assignment 3/VR-Project-3/VR3/VR3
     2/Build/Test Build.apk
