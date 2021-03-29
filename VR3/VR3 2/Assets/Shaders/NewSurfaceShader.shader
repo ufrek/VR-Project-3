@@ -63,7 +63,8 @@ Shader "BitShiftProgrammer/AnimatedFish"
 					half yValue = v.vertex.y - _Yoffset;
 					half yDirScaling = clamp(pow(yValue * _EffectRadius,_Threshold),0.0,1.0);
 					v.vertex.x = v.vertex.x + sinUse * _WaveHeight * yDirScaling;
-					v.vertex.x = v.vertex.x + sin(-_Time.y * _StrideSpeed + _MoveOffset) * _StrideStrength;
+					v.vertex.z = v.vertex.z+ sin(-_Time.z * _StrideSpeed + _MoveOffset) * _StrideStrength;
+					v.vertex.x = v.vertex.x + sin(-_Time.x * _StrideSpeed + _MoveOffset) * _StrideStrength;
 					o.vertex = UnityObjectToClipPos(v.vertex);
 					o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 					UNITY_TRANSFER_FOG(o,o.vertex);

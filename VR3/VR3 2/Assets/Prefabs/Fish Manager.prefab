@@ -1,5 +1,68 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &-6345696849395131983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 349591306492155726}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 215226088273493931}
+  m_Layer: 0
+  m_Name: Fish Variant (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &215226088273493931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 349591306492155726}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: -6345696849395131983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: -7537552796262020943}
+  - {fileID: 4032898829432938258}
+  m_Father: {fileID: 349591305949587217}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &-33985822593101995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 349591306492155726}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4032898829432938258}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4032898829432938258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3687959288203429980, guid: ce11aabd838de8c4db3743ee9916dc48,
+    type: 3}
+  m_PrefabInstance: {fileID: 349591306492155726}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: -33985822593101995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 215226088273493931}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &349591305949587219
 GameObject:
   m_ObjectHideFlags: 0
@@ -29,8 +92,8 @@ Transform:
   m_LocalPosition: {x: 859.9, y: 24.9, z: 640.42505}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4032898829432938258}
-  - {fileID: 9179975659254476881}
+  - {fileID: 215226088273493931}
+  - {fileID: 7419882058610614064}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
@@ -46,7 +109,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2475e17e9db98f4eb160ec7208a60f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fishPrefab: {fileID: 4032898829432938257}
+  fishPrefab: {fileID: 5149248700592811750, guid: 2e865864e15e01a498d0d67cb364508d,
+    type: 3}
   tankSize: 30
   numFish: 15
   allFish: []
@@ -69,6 +133,133 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &4032898829432938257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3687959288203429983, guid: ce11aabd838de8c4db3743ee9916dc48,
+    type: 3}
+  m_PrefabInstance: {fileID: 349591306492155726}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: -7537552796262020943}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &-7537552796262020943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 349591306492155726}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032898829432938257}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 215226088273493931}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4634277943770510151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 5497646476424099853}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7419882058610614064}
+  m_Layer: 0
+  m_Name: Fish (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7419882058610614064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 5497646476424099853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4634277943770510151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7237498131858052081}
+  - {fileID: 9179975659254476881}
+  m_Father: {fileID: 349591305949587217}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6546923916990955624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 5497646476424099853}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9179975659254476881}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9179975659254476881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3687959288203429980, guid: ce11aabd838de8c4db3743ee9916dc48,
+    type: 3}
+  m_PrefabInstance: {fileID: 5497646476424099853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6546923916990955624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7419882058610614064}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9179975659254476882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3687959288203429983, guid: ce11aabd838de8c4db3743ee9916dc48,
+    type: 3}
+  m_PrefabInstance: {fileID: 5497646476424099853}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7237498131858052081}
+  - component: {fileID: 9179975659254476894}
+  - component: {fileID: 9179975659254476880}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7237498131858052081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 5497646476424099853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179975659254476882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7419882058610614064}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &9179975659254476894
 CharacterController:
   m_ObjectHideFlags: 0
@@ -176,18 +367,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce11aabd838de8c4db3743ee9916dc48, type: 3}
---- !u!1 &4032898829432938257 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3687959288203429983, guid: ce11aabd838de8c4db3743ee9916dc48,
-    type: 3}
-  m_PrefabInstance: {fileID: 349591306492155726}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4032898829432938258 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3687959288203429980, guid: ce11aabd838de8c4db3743ee9916dc48,
-    type: 3}
-  m_PrefabInstance: {fileID: 349591306492155726}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5497646476424099853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -302,15 +481,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce11aabd838de8c4db3743ee9916dc48, type: 3}
---- !u!1 &9179975659254476882 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3687959288203429983, guid: ce11aabd838de8c4db3743ee9916dc48,
-    type: 3}
-  m_PrefabInstance: {fileID: 5497646476424099853}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &9179975659254476881 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3687959288203429980, guid: ce11aabd838de8c4db3743ee9916dc48,
-    type: 3}
-  m_PrefabInstance: {fileID: 5497646476424099853}
-  m_PrefabAsset: {fileID: 0}
