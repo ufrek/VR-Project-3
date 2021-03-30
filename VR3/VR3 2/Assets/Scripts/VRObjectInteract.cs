@@ -13,10 +13,13 @@ public class VRObjectInteract : MonoBehaviour
     AudioClip sGazeSound;
     [SerializeField]
     AudioClip sClickSound;
+    [SerializeField]
+    GameObject textPrefab;
 
     public float clickSoundVolume = .6f;
     private AudioSource myAudioSource;
     private Renderer myRenderer;
+    private bool showText = false;
 
     //maybe add in a location randomizer later?
 
@@ -33,12 +36,22 @@ public class VRObjectInteract : MonoBehaviour
     {
         myAudioSource.PlayOneShot(sGazeSound);
         SetMaterial(true);
+        showText = true;      //make text popup when you eat a seaweed
     }
 
     public void OnPointerExit()
     {
         SetMaterial(false);
+        Destroy(this.transform.gameObject);
     }
+
+    //create a text label
+    public void OnGUI()
+    {
+        if (showText)
+            GUI.Label(new Rect(Screen.width / 2 - 130, Screen.height - 50, 300, 50), "Yummy! You just found a seaweed. Eat them!");
+    }
+
 
     public void OnPointerClick()                                            //just plays a a sound for now
     {
