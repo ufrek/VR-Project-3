@@ -33,6 +33,21 @@ public class WayPoint : MonoBehaviour
 
         }
 
+        if (other.gameObject.tag == "Boat")
+        {
+            print("hit");
+            if (isRestPoint)
+            {
+                PathMover p = other.GetComponent<PathMover>();
+                p.setTakingBreak(true);
+                p.StartCoroutine(Rest(p, waitTime));
+            }
+            else
+                other.GetComponent<PathMover>().resetTarget();
+            Destroy(this.gameObject);
+
+        }
+
     }
 
     IEnumerator Rest(PathMover p, float wait)
