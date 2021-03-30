@@ -73,6 +73,7 @@ public class BoatPathMover : MonoBehaviour
                     {
 
                         target = points[0].gameObject.transform.position;                                       //done stupidly, but it works for now
+                        transform.position = Vector3.MoveTowards(transform.position, target, moveSpeed);
                     }
                     else
                         Destroy(this.gameObject);                                                               //just destroy when goes along whole path

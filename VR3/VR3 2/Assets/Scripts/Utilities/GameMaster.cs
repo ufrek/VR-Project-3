@@ -74,6 +74,8 @@ public class GameMaster : MonoBehaviour
         Scene currScene = SceneManager.GetActiveScene();
         if (currScene == SceneManager.GetSceneByBuildIndex(0))
             SceneManager.LoadScene(1);
+        else if (currScene == SceneManager.GetSceneByBuildIndex(1))
+            SceneManager.LoadScene(2);
         else
             Application.Quit();
 
