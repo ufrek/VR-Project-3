@@ -92,6 +92,8 @@
     <Compile Include="Assets\Scripts\ScoringMechanic.cs" />
     <Compile Include="Assets\Scripts\SeaWeedSpawner.cs" />
     <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
+    <Compile Include="Assets\Scripts\TextManager.cs" />
+    <Compile Include="Assets\Scripts\TextSeaweed.cs" />
     <Compile Include="Assets\Scripts\Unused Resources\Apple.cs" />
     <Compile Include="Assets\Scripts\Unused Resources\Display.cs" />
     <Compile Include="Assets\Scripts\Unused Resources\ScavengerHuntManager.cs" />
