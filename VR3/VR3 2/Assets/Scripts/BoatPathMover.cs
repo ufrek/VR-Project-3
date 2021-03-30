@@ -122,7 +122,7 @@ public class BoatPathMover : MonoBehaviour
         Vector3 lookDifference = to - transform.position;
 
         Quaternion lookRotation =
-            Quaternion.LookRotation((lookDifference).normalized);
+            Quaternion.LookRotation((-lookDifference).normalized);
 
         //over time
         transform.rotation =
