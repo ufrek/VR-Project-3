@@ -2392,6 +2392,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameMaster
       objectReference: {fileID: 0}
+    - target: {fileID: 6777137432178230259, guid: 70228ec4edf0b4a4c87d385c307c348f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777137432178230259, guid: 70228ec4edf0b4a4c87d385c307c348f,
+        type: 3}
+      propertyPath: changeLevelVolume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777137432178230268, guid: 70228ec4edf0b4a4c87d385c307c348f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6777137432178230269, guid: 70228ec4edf0b4a4c87d385c307c348f,
         type: 3}
       propertyPath: m_LocalPosition.x
