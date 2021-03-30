@@ -24,6 +24,6 @@ public class Kelp : MonoBehaviour
         transform.Rotate(0, rotationSpeed * Time.deltaTime, 0);
         //Vector3 pos = origin;
         //transform.position = new Vector3(pos.x, Mathf.Sin(Time.time * bounceSpeed) * bounceHeight, pos.z);
-
     }
 }
+
