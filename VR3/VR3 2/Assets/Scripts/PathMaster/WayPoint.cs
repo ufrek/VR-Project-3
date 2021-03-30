@@ -38,12 +38,12 @@ public class WayPoint : MonoBehaviour
             print("hit");
             if (isRestPoint)
             {
-                PathMover p = other.GetComponent<PathMover>();
+                BoatPathMover p = other.GetComponent<BoatPathMover>();
                 p.setTakingBreak(true);
-                p.StartCoroutine(Rest(p, waitTime));
+                p.StartCoroutine(BoatRest(p, waitTime));
             }
             else
-                other.GetComponent<PathMover>().resetTarget();
+                other.GetComponent<BoatPathMover>().resetTarget();
             Destroy(this.gameObject);
 
         }
@@ -51,6 +51,11 @@ public class WayPoint : MonoBehaviour
     }
 
     IEnumerator Rest(PathMover p, float wait)
+    {
+        yield return new WaitForSecondsRealtime(wait);
+        p.resetTarget();
+    }
+    IEnumerator BoatRest(BoatPathMover p, float wait)
     {
         yield return new WaitForSecondsRealtime(wait);
         p.resetTarget();
