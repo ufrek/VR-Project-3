@@ -1,4 +1,5 @@
 # Manatee Educational Interactive Experience
+Link to short video demo: https://youtu.be/upuQn4r4mmw
 
 This program uses Unity and C# in tandem with the Google Cardboard to provide a short presentation while on a boat ride about Manatees and their behaviors that users can play on their phone.
 
